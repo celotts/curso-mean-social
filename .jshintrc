@@ -1,35 +1,12 @@
 {
-    "globals" : {},
-    "require": false,
-    "expr": true,
-    "node": true,
-    "esversion": 6,
-    "bitwise": true,
-    "eqeqeq": true,
-    "immed": true,
-    "latedef": "nofunc",
-    "newcap": true,
-    "noarg": true,
-    "undef": true,
-    "smarttabs": true,
-    "asi": false,
-    "debug": true,
-    "noyield": true,
-
-    "predef": [ "$", "jQuery", "text", "$p", "window", "document", "console", "parent" ],
-  "curly":                true,
-  "funcscope":            true,
-  "futurehostile":        true,
-  "nonbsp":               true,
-  "notypeof":             true,
-  "shadow":               "outer",
-  "singleGroups":         true,
-  "unused":               true,
-
-  "scripturl":            true,
-
-  "-W079":                true,
-  "jshintConfig": {
-    "extends": "./node_modules/jsgreat/es6/.jshintrc"
-  }
+  "esnext": false,
+  "moz": true,
+  "boss": true,
+  "node": true,
+  "validthis": true,
+  "globals": {
+    "EventEmitter": true,
+    "Promise": true
+  },
+  "config": {"node": true}
 }
