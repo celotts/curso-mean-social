@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var express = require('express');
 var bodyParser = require('body-parser');
@@ -16,7 +16,7 @@ app.get('/', (req, res) =>{
 app.get('/pruebas', (req, res) =>{
     res.status(200).send({
         message: 'Acción de prueba en el servidor Node.js'
-    })
+    });
 })
 //export
 module.exports = app;
