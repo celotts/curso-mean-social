@@ -14,5 +14,22 @@
     "smarttabs": true,
     "asi": false,
     "debug": true,
-    "noyield": true
+    "noyield": true,
+
+    "predef": [ "$", "jQuery", "text", "$p", "window", "document", "console", "parent" ],
+  "curly":                true,
+  "funcscope":            true,
+  "futurehostile":        true,
+  "nonbsp":               true,
+  "notypeof":             true,
+  "shadow":               "outer",
+  "singleGroups":         true,
+  "unused":               true,
+
+  "scripturl":            true,
+
+  "-W079":                true,
+  "jshintConfig": {
+    "extends": "./node_modules/jsgreat/es6/.jshintrc"
+  }
 }
