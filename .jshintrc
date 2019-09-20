@@ -28,5 +28,8 @@
 
   "scripturl":            true,
 
-  "-W079":                true
+  "-W079":                true,
+  "jshintConfig": {
+    "extends": "./node_modules/jsgreat/es6/.jshintrc"
+  }
 }
