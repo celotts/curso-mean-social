@@ -3,6 +3,7 @@
   "moz": true,
   "boss": true,
   "node": true,
+  "esversion": 6,
   "validthis": true,
   "globals": {
     "EventEmitter": true,
